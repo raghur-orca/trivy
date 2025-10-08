@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.68.0](https://github.com/aquasecurity/trivy/compare/v0.67.0...v0.68.0) (2025-10-08)
+
+
+### Features
+
+* allow ignoring findings by type in Rego ([#9578](https://github.com/aquasecurity/trivy/issues/9578)) ([c638fc6](https://github.com/aquasecurity/trivy/commit/c638fc646c3c0d56ea50c830a31609badb477c5e))
+
+
+### Bug Fixes
+
+* add `buildInfo` for `BlobInfo` in `rpc` package ([#9608](https://github.com/aquasecurity/trivy/issues/9608)) ([6def66e](https://github.com/aquasecurity/trivy/commit/6def66e002427eadcc6dbabe56b01c37c1eae075))
+* **java:** update order for resolving package fields from multiple demManagement ([#9575](https://github.com/aquasecurity/trivy/issues/9575)) ([e286c5e](https://github.com/aquasecurity/trivy/commit/e286c5e207b6d8a1ef01f3f634f874e2e3d4c0f0))
+* restore compatibility for google.protobuf.Value ([#9559](https://github.com/aquasecurity/trivy/issues/9559)) ([aeeb2a1](https://github.com/aquasecurity/trivy/commit/aeeb2a1f842b56147996b600bd34db2cf05cd28e))
+* validate backport branch name ([#9548](https://github.com/aquasecurity/trivy/issues/9548)) ([f0fd432](https://github.com/aquasecurity/trivy/commit/f0fd432a7aeced7cca1acab5a52d72cd960e7171))
+* **vex:** don't use reused BOM ([#9604](https://github.com/aquasecurity/trivy/issues/9604)) ([7422cc7](https://github.com/aquasecurity/trivy/commit/7422cc7168ab917ec96b75de784be72e9b6bdb2e))
+
 ## [0.67.0](https://github.com/aquasecurity/trivy/compare/v0.66.0...v0.67.0) (2025-09-30)
 
 
