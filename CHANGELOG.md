@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.67.1](https://github.com/aquasecurity/trivy/compare/v0.67.0...v0.67.1) (2025-10-08)
+
+
+### Bug Fixes
+
+* **vex:** don't use reused BOM [backport: release/v0.67] ([#9612](https://github.com/aquasecurity/trivy/issues/9612)) ([f65dd05](https://github.com/aquasecurity/trivy/commit/f65dd053096795e7beb88c92340430ee8d89c3e8))
+
 ## [0.67.0](https://github.com/aquasecurity/trivy/compare/v0.66.0...v0.67.0) (2025-09-30)
 
 
