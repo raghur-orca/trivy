@@ -43,8 +43,9 @@ func (p *Parser) splitLine(line string) []string {
 	}
 	for _, sep := range separators {
 		if result := strings.Split(line, sep); len(result) == 2 {
-			return result
-		}
+			// Handle version ranges by taking only the first constraint. ">=2.31.0,<3" becomes ">=2.31.0"
+			version := strings.Split(result[1], ",")[0]
+			return []string{result[0], version}		}
 	}
 	return nil
 }
